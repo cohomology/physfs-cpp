@@ -1,3 +1,5 @@
+find_package(cppunit REQUIRED) 
 add_executable(physfs_test physfs_test.cpp)
-target_link_libraries(physfs_test physfs++ cppunit)
+target_include_directories(physfs_test PUBLIC ${CPPUNIT_INCLUDE_DIRS})
+target_link_libraries(physfs_test physfs++ ${CPPUNIT_LIBRARIES})
 add_test(physfs_test physfs_test)
