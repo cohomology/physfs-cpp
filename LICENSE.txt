@@ -47,8 +47,8 @@ is reproduced below:
 
        Ryan C. Gordon <icculus@icculus.org>
 
-
-
+This library also includes a copy of Findcppunit.cmake which is licensed using 
+the Boost Software License 1.0, see the appropriate subdirectory.
 
 Notes, separate from the license. This is not legal advice.
 
